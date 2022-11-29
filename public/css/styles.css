@@ -1,0 +1,35 @@
+.navbar-size {
+    background-color: white !important;
+    width: 100%;
+    margin: 0 auto;
+}
+.linkdn{
+    background-color: #808080 !important;
+}
+.nav-wrapper{
+    background-color: white !important;
+   }
+.user-image-size {
+    height: 56px;
+    margin: 4px 0;
+}
+.main-body {
+    background-color: #000;
+    color: white;
+    height: calc(100vh - 64px);
+}
+.materialboxed-image {
+    margin: 0 auto;
+    height: 400px;
+}
+.click-me-button {
+    background-color: #808080;
+    margin-top: 50px;
+}
+Footer
+© 2022 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Statu

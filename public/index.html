@@ -5,13 +5,13 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>SIT 725 Prac 3</title>
-  <meta name="description" content="basic template for SIT 725 Prac 3">
+  <title>SIT 725 Prac 4</title>
+  <meta name="description" content="basic template for SIT 725 Prac 4">
   <meta name="author" content="SitePoint">
 
-  <meta property="og:title" content="SIT 725 Prac 3">
+  <meta property="og:title" content="SIT 725 Prac 4">
   <meta property="og:type" content="website">
-  <meta property="og:description" content="basic template for SIT 725 Prac 3">
+  <meta property="og:description" content="basic template for SIT 725 Prac 4">
 
   <!-- Compiled and minified CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
@@ -36,14 +36,14 @@
         <div class="container">
           <div class="row">
             <div class="col s12 center-align">
-              <h1 id="heading">Welcome to SIT 725 Week 3</h1>
-              <p class="flow-text">This is a demo application that tries to use a few components from materialize and through this practical we try to have some fun with Materialize and its components</p>
+              <h1 id="heading">Welcome to SIT 725 Week 4</h1>
+              <p class="flow-text">This is a demo application that connects to database and loads data on the web page</p>
             </div>
             <div class="col s12 center-align">
               <img class="materialboxed materialboxed-image" src="images/logo.jpg">
             </div>
             <div class="col s12 center-align">
-              <a class="waves-effect waves-light btn click-me-button modal-trigger" id="clickMeButton" data-target="modal1"><i class="material-icons left">auto_fix_high</i>Click Me</a>
+              <a class="waves-effect waves-light btn click-me-button modal-trigger" id="clickMeButton" data-target="modal1"><i class="material-icons left">auto_fix_high</i>Add Car</a>
             </div>
           </div>
           <div class="row" id="card-section">
@@ -54,51 +54,50 @@
                 </div>
                 <div class="card-content">
                   <span class="card-title activator grey-text text-darken-4">Nissan GTR R34<i class="material-icons right">more_vert</i></span>
-                  <p><a href="#">About Nissan GTR R34</a></p>
+                  <p><a href="#">About GTR R34</a></p>
                 </div>
                 <div class="card-reveal">
-                  <span class="card-title grey-text text-darken-4">GTR R34<i class="material-icons right">close</i></span>
+                  <span class="card-title grey-text text-darken-4">GTR<i class="material-icons right">close</i></span>
                   <p class="card-text">Hello There! I just wanted to say HI to you guys. See ya!</p>
                 </div>
               </div>
             </div>
           </div>
         </div>
-          <!-- Modal Structure continues on next slide-->
-        <!-- Modal Structure -->
-        <div id="modal1" class="modal modal-fixed-footer">
-            <div class="row modal-content">
-              <form class="col s12">
-                <div class="row">
-                  <div class="input-field col s6">
-                    <input placeholder="Placeholder" id="first_name" type="text" class="validate">
-                    <label for="first_name">First Name</label>
-                  </div>
-                  <div class="input-field col s6">
-                    <input id="last_name" type="text" class="validate">
-                    <label for="last_name">Last Name</label>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="input-field col s12">
-                    <input id="password" type="password" class="validate">
-                    <label for="password">Password</label>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="input-field col s12">
-                    <input id="email" type="email" class="validate">
-                    <label for="email">Email</label>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="input-field col s12 center-align">
-                    <a class="waves-effect waves-light btn" id="formSubmit">submit</a>
-                  </div>
-                </div>
-              </form>
+      <!-- Modal Structure -->
+      <div id="modal1" class="modal modal-fixed-footer">
+        <div class="row modal-content">
+          <form class="col s12">
+            <div class="row">
+              <div class="input-field col s6">
+                <input placeholder="Placeholder" id="title" type="text" class="validate">
+                <label for="title">Title</label>
+              </div>
+              <div class="input-field col s6">
+                <input id="image" type="text" class="validate">
+                <label for="image">Image</label>
+              </div>
             </div>
-          </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <input id="link" type="text" class="validate">
+                <label for="link">Link</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <input id="description" type="text" class="validate">
+                <label for="description">Description</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12 center-align">
+                <a class="waves-effect waves-light btn" id="formSubmit">submit</a>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
         </main>  
   <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   <!-- Compiled and minified JavaScript -->
